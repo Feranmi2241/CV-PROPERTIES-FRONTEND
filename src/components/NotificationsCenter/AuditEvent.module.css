@@ -1,0 +1,53 @@
+.auditEvent1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-2);
+  box-sizing: border-box;
+  max-width: 136px;
+  text-align: left;
+  font-size: var(--fs-11);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
+.auditEvent1Header {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  z-index: 1;
+}
+.containerIcon {
+  height: var(--height-18);
+  width: var(--width-18);
+  position: relative;
+  box-shadow: var(--shadow-drop-4);
+  border-radius: 9px;
+}
+.adminInitializedBatch {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: var(--max-w-100);
+}
+.today1015AmJamesonBurk {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-4);
+  box-sizing: border-box;
+  max-width: 103.9px;
+  z-index: 2;
+  margin-top: -1px;
+  position: relative;
+  font-size: var(--fs-10);
+  color: var(--color-dimgray-100);
+}
+.today1015Am {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-15);
+  display: inline-block;
+  max-width: 95px;
+}

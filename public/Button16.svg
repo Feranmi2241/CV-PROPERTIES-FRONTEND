@@ -1,0 +1,14 @@
+<svg width="33" height="30" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="12" y="10" width="14" height="10" fill="url(#pattern0_5344_1594)"/>
+<rect x="13" y="14" width="9" height="3" fill="url(#pattern1_5344_1594)"/>
+<defs>
+<pattern id="pattern0_5344_1594" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_5344_1594" transform="matrix(0.018315 0 0 0.025641 -0.003663 0)"/>
+</pattern>
+<pattern id="pattern1_5344_1594" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_5344_1594" transform="scale(0.111111 0.333333)"/>
+</pattern>
+<image id="image0_5344_1594" width="55" height="39" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAnCAYAAACrDdDdAAADiElEQVR4nO2Zy28bVRTGf+dOiB03toMchEiLEKiwqTfAih1LdvwJlrrJsuyo2LIBiUW7yzKsaFhZbEAI1IpXoNDyqNMCCohSQkBNUG3TsZt47mHhR9x0bN+xJ7KQ5tvMzL3fud93fO6dxzX8j6AduPJnjtJMnFDVe2HnIpIaFCNHbSoOqOpdIDOg2xeRY2EdEyWnqtXQQUXyk4wbojNqKtbCdMdOTlV3gMKA7l0RWRx37BAt13W2C9DVHis5Va0D8yNo24M6RGQpot5jwJ8RQrZFZGnc5J4CAuC3ceKBOyLycETNJyLq3Zx0zT3dOf3ZMeSZznFGRG6MqeeqFc/dUlVPAZUhlCKAiGzEpHUYYdrF2B4FQxb98yJyNS6dAdrPHW6LVVPD8UJsAtNESGIvTttTbFDVl9QeZDZtPxNBA/3kgTar2knw5Wl4mhi//1K5AKAtPQ2ggV5Q1XabtpObpr/78EH5ndUo/O+/vqgfv1/uxfStsdWjmJIbly+tfvnhe5E8dmEeWSyUrl1dX3EhV6vVldu3dygUFkuquqKBvosC7XRKHEHN8rl8Kb+QL40Ta+7tWxbmc8su5Fw2u5xKZVCrAMsYrvU6FadXguvffnZus3LlbVeDfqPJfqvlSr8Pxlql0fCdyP/W63hi8IwBQERe73UeJHZ22BgLuYUziNlyNahqe3pRYQyCiNuLilqLGMEc5vddisibw8bw/SYnTz37mqtBq4qjvQdgxHjOZFWwCGIEoJ2EAJZuQkMTA1CErV9/fNVV0wbAuJVDPNS1cgB4aLva7elnOS+enMVyvtc2zCzC0onH33A1qCIYCS9A/Z+dM8NijTEGcPtlrNKewnLAF09e6T+Odgt/bW2/5cRtOxxYuUwmcw7g5uZPoTdEo2pJpdNOOtlcFrS9yMeGCM29pvsbu4J44ZWr1WoAHD++FPooM6n0HNU7tTUXnYbvr6XSs2SPjdphGIwZbwYjnHblp+fSzGdCN7doNJtrALdu/RHu/5v19XIUc19c/Ki8ef2HSDH9uPzppUix3331efnGlWgeEyRIkCBBggQJEkwFTh9ylUpltlgs7nWvtVKZBZBDbRtAP28UuuNM8u/IMD2n5Oq7f2u28GiPa/fuqmLwZud6ba1GXRV4aC7rvCkQ+FVFg84GkBK0WogxGGOwVlEbIEYRDIoQBJbuzmHLBvj+PieePDlQ7z8TrrMECgtdaQAAAABJRU5ErkJggg=="/>
+<image id="image1_5344_1594" width="9" height="3" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAADCAYAAABBCiV2AAAAIklEQVR4nGPcs2fPfwYGBgYXFxdGGBudz8RALEA2AZkNAwDCyRGdhNZ82AAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

@@ -1,0 +1,76 @@
+.checkbox,
+.containerRow1 {
+  display: flex;
+  flex-shrink: 0;
+}
+.containerRow1 {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-18) var(--padding-24);
+  gap: var(--gap-9);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.checkbox {
+  height: var(--height-16_9);
+  align-items: flex-start;
+  padding: var(--padding-3_9) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.imageIcon {
+  height: var(--height-44);
+  width: var(--width-43);
+  position: relative;
+  flex-shrink: 0;
+}
+.container,
+.containerRow1Column1 {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.containerRow1Column1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8_9) var(--padding-3) var(--padding-0) var(--padding-0);
+}
+.container {
+  background-color: var(--color-gray-1200);
+  overflow: hidden;
+  padding: var(--padding-0) 55px var(--padding-1) var(--padding-0);
+}
+.adminUser {
+  margin: 0;
+  position: relative;
+}
+.container2 {
+  align-self: stretch;
+  background-color: var(--color-gray-1200);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+  flex-shrink: 0;
+  font-size: var(--fs-10);
+  color: var(--color-gray-1400);
+}
+.superAdministrator {
+  position: relative;
+  line-height: var(--lh-15);
+}
+.moon {
+  height: var(--height-9_9);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-1_9) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.chevronRightIcon {
+  height: var(--height-14);
+  width: var(--width-14);
+  position: relative;
+  flex-shrink: 0;
+}

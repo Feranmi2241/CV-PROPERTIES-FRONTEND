@@ -1,0 +1,85 @@
+.container,
+.containerRow0 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.container {
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  text-align: left;
+  font-size: 18px;
+  color: #171a1f;
+  font-family: Inter;
+}
+.containerRow0 {
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding: 24px 30px;
+  box-sizing: border-box;
+  gap: 12.5px;
+}
+.containerRow0Column0 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 234px;
+  max-width: 923px;
+}
+.complianceAndSystem,
+.logsAudit {
+  align-self: stretch;
+  position: relative;
+}
+.logsAudit {
+  margin: 0;
+}
+.complianceAndSystem {
+  font-size: 14px;
+  line-height: 20px;
+  color: #64748b;
+}
+.textbox {
+  border: 0;
+  background-color: transparent;
+  height: 41.4px;
+  flex: 1;
+  font-family: Inter;
+  font-size: 14px;
+  color: #565d6d;
+  min-width: 98px;
+  max-width: 256px;
+}
+.container2 {
+  height: 40px;
+  padding: 9px 16px;
+  box-sizing: border-box;
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1125px) {
+  .containerRow0Column0 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .containerRow0Column0 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .containerRow0Column0 {
+    max-width: 100%;
+  }
+}

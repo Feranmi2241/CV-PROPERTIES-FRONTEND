@@ -1,0 +1,114 @@
+.groups,
+.titleAndBreadcrumb {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.groups {
+  position: absolute;
+  top: 5.4px;
+  left: 8.2px;
+  background-color: transparent;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 21px 23px 21.4px;
+  box-sizing: border-box;
+  gap: 8px;
+  text-align: left;
+  font-size: 17.8px;
+  color: #000;
+  font-family: Inter;
+}
+.titleAndBreadcrumb {
+  flex: 1;
+  flex-direction: column;
+  gap: 5.8px;
+  min-width: 203px;
+}
+.addNewUser {
+  align-self: stretch;
+  position: relative;
+}
+.breadcrumb {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.2px 0;
+  gap: 9.5px;
+  font-size: 10.9px;
+  color: #878788;
+}
+.dashboard {
+  height: 14px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 4px 0 0;
+  box-sizing: border-box;
+}
+.dashboard2 {
+  position: relative;
+  font-weight: 500;
+}
+.image {
+  height: 8.9px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 1px 2.1px 0;
+  box-sizing: border-box;
+}
+.imageIcon {
+  height: 6.8px;
+  width: 4.1px;
+  position: relative;
+}
+.addNewUser2,
+.image2,
+.users {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.users {
+  height: 14px;
+  padding: 0 1px 0 0;
+  text-align: center;
+}
+.addNewUser2,
+.image2 {
+  height: 8.9px;
+  padding: 0 0 2.1px;
+}
+.addNewUser2 {
+  height: 15.8px;
+  padding: 0 0 1.8px;
+}
+.button,
+.headerActions {
+  height: 42.4px;
+  display: flex;
+  align-items: flex-start;
+}
+.headerActions {
+  padding: 0 9px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+.button {
+  background-color: transparent;
+}
+.button2,
+.frame {
+  height: 42.4px;
+  padding: 13px 21px 14.4px 23px;
+  box-sizing: border-box;
+}
+.button2 {
+  height: 40.9px;
+  padding: 2.7px 1px 0 2px;
+}
+@media screen and (max-width: 450px) {
+  .breadcrumb {
+    flex-wrap: wrap;
+  }
+}

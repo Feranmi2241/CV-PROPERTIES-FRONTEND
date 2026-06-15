@@ -1,0 +1,30 @@
+.operatingIndicator {
+  height: 18px;
+  border-radius: 1.5px 1px 0 3px;
+  background-color: #e6f7ef;
+  border: 1px solid #f0f7f3;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 1.5px 2px 1.6px 6px;
+  gap: 4px;
+  text-align: left;
+  font-size: 9px;
+  color: #0ca554;
+  font-family: Inter;
+}
+.imageIcon {
+  height: 4px;
+  width: 4px;
+  position: relative;
+}
+.active {
+  height: 12.9px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 1.9px;
+  box-sizing: border-box;
+}
+.active2 {
+  position: relative;
+}

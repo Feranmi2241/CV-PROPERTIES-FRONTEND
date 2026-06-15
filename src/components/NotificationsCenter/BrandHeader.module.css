@@ -1,0 +1,40 @@
+.brandHeader {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-9_9);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.containerIcon {
+  height: var(--height-60);
+  width: var(--width-60);
+  position: relative;
+  box-shadow: var(--shadow-drop-3);
+  border-radius: var(--br-10);
+  object-fit: cover;
+}
+.brandText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-2_9) var(--padding-0) var(--padding-0);
+  z-index: 2;
+}
+.adminPanel,
+.cvProperties {
+  align-self: stretch;
+  position: relative;
+}
+.cvProperties {
+  margin: 0;
+}
+.adminPanel {
+  font-size: var(--fs-12);
+  line-height: var(--lh-16);
+  color: var(--color-gray-1400);
+}

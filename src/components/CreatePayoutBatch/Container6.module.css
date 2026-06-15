@@ -1,0 +1,107 @@
+.container,
+.containerRow0 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.container {
+  background-color: var(--color-white);
+  flex-direction: column;
+  gap: var(--gap-2);
+}
+.containerRow0 {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: var(--padding-19) var(--padding-30);
+  box-sizing: border-box;
+  gap: var(--gap-7);
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+.admin {
+  position: relative;
+  line-height: var(--lh-16);
+  font-weight: 500;
+}
+.chevronRight {
+  height: var(--height-12);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-2) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.chevronRightIcon {
+  height: var(--height-12);
+  width: var(--width-12);
+  position: relative;
+}
+.createPayoutBatch {
+  flex: 1.1406;
+  display: flex;
+  align-items: flex-start;
+  min-width: 118px;
+  max-width: 179px;
+  color: var(--color-gray-400);
+}
+.container2,
+.textbox {
+  height: var(--height-40);
+}
+.textbox {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-inter);
+  font-size: var(--fs-14);
+  color: var(--color-dimgray-100);
+  min-width: var(--min-w-310);
+  max-width: 511px;
+}
+.container2 {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-18) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.containerIcon {
+  height: var(--height-40);
+  width: var(--width-40);
+  position: relative;
+  border-radius: var(--br-20);
+}
+.line,
+.lineIcon {
+  height: var(--height-24);
+}
+.line {
+  display: flex;
+  align-items: flex-start;
+}
+.lineIcon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.button {
+  height: var(--height-40);
+  box-shadow: var(--shadow-drop-5);
+  padding: var(--padding-9) var(--padding-24);
+  box-sizing: border-box;
+}
+.lineIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 750px) {
+  .textbox {
+    max-width: 100%;
+  }
+}

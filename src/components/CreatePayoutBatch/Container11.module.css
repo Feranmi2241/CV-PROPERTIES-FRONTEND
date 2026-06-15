@@ -1,0 +1,75 @@
+.cardTopRow,
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  flex: 1;
+  box-shadow: var(--shadow-drop);
+  border-radius: var(--br-16);
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-24) var(--padding-12);
+  box-sizing: border-box;
+  gap: var(--gap-16);
+  min-width: 170px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-gray-500);
+  font-family: var(--font-inter);
+}
+.cardTopRow {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 57px;
+}
+.container2 {
+  height: var(--height-40);
+  width: var(--width-40);
+  position: relative;
+}
+.trendIndicator {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-1_9) var(--padding-0);
+  gap: var(--gap-4);
+}
+.arrowUpRightIcon {
+  height: var(--height-12);
+  width: var(--width-12);
+  position: relative;
+}
+.b {
+  position: relative;
+}
+.cardBottomSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4);
+  max-width: var(--max-w-150_6);
+  color: var(--color-dimgray-200);
+}
+.totalUsers {
+  letter-spacing: var(--ls-0_6);
+  line-height: var(--lh-16);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.h3,
+.totalUsers,
+.vsLastMonth {
+  align-self: stretch;
+  position: relative;
+}
+.h3 {
+  margin: 0;
+  color: var(--color-gray-500);
+}
+.vsLastMonth {
+  font-size: var(--fs-10);
+  line-height: var(--lh-15);
+}

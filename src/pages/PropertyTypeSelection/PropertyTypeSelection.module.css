@@ -1,0 +1,491 @@
+.propertyTypeSelectionScreen {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 40px;
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 48px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #565d6d;
+  font-family: Inter;
+}
+.container {
+  width: 36px;
+  height: 36px;
+  margin: 0 !important;
+  position: absolute;
+  top: 138px;
+  left: calc(50% - 35px);
+  border-radius: 18px;
+  background-color: #f3f4f6;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.b {
+  position: relative;
+}
+.leftColumn,
+.mainContent {
+  display: flex;
+  align-items: flex-start;
+}
+.mainContent {
+  align-self: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 16px 30px;
+  box-sizing: border-box;
+  gap: 8px;
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+  font-size: 38px;
+  color: #171a1f;
+  font-family: "Plus Jakarta Sans";
+}
+.leftColumn {
+  flex: 1;
+  flex-direction: column;
+  gap: 23px;
+  min-width: 310px;
+  max-width: 490px;
+}
+.whatTypeOf {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  max-width: 412px;
+}
+.chooseTheOption {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Inter;
+  color: #565d6d;
+}
+.container2,
+.propertyCardsGrid {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.propertyCardsGrid {
+  height: 999px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 31px 32px;
+  min-width: 310px;
+  max-width: 814px;
+}
+.container2 {
+  box-shadow:
+    0 0 0 transparent,
+    0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 371px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #171a1f;
+  font-family: "Plus Jakarta Sans";
+}
+.containerIcon,
+.containerIcon2 {
+  position: relative;
+  object-fit: cover;
+}
+.containerIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
+.containerIcon2 {
+  align-self: stretch;
+  height: 228.6px;
+  border-radius: 14px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cardFooter {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 7.4px 0 1px;
+  gap: 20px;
+}
+.cardTextGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 135px;
+}
+.housingProperties {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.housesApartmentsFlats {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: Inter;
+  color: #565d6d;
+  display: inline-block;
+  max-width: 208px;
+}
+.buttonIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 46px;
+  width: 46px;
+  position: relative;
+  border-radius: 23px;
+}
+.buttonIcon4:hover,
+.buttonIcon:hover {
+  background-color: transparent;
+  border: 1px solid #30ba6e;
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  top: calc(50% - 10.99px);
+  left: calc(50% + 9px);
+  font-size: 13px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #18a055;
+  text-align: left;
+}
+.chevronRightIcon {
+  position: absolute;
+  top: calc(50% - 9.99px);
+  left: calc(50% - 11px);
+  width: 20px;
+  height: 20px;
+}
+.containerIcon4 {
+  align-self: stretch;
+  height: 229px;
+  position: relative;
+  border-radius: 14px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cardFooter2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 7px 0 1px;
+  gap: 0;
+  row-gap: 20px;
+}
+.cardTextGroup2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 119px;
+  max-width: 183px;
+}
+.studentHostelsShortlets {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: Inter;
+  color: #565d6d;
+  display: inline-block;
+  max-width: 183px;
+}
+.text2 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% + 9px);
+  font-size: 13px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #18a055;
+  text-align: left;
+}
+.chevronRightIcon2 {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 11px);
+  width: 20px;
+  height: 20px;
+}
+.image8Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardFooter3 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 30px 0 1px;
+  gap: 0;
+  row-gap: 20px;
+}
+.cardTextGroup3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 122px;
+  max-width: 188px;
+}
+.hotelsLodgesResorts {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: Inter;
+  color: #565d6d;
+  display: inline-block;
+  max-width: 188px;
+}
+.containerIcon6,
+.image9Icon {
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.containerIcon6 {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
+.image9Icon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cardTextGroup4,
+.menuItemDelete {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.menuItemDelete {
+  width: 83.8px;
+}
+.cardTextGroup4 {
+  flex: 1;
+  flex-direction: column;
+  min-width: 117px;
+  max-width: 180px;
+}
+.eventHallsVenues {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: Inter;
+  color: #565d6d;
+  display: inline-block;
+  max-width: 180px;
+}
+.buttonIcon4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 46px;
+  width: 46px;
+  position: relative;
+  border-radius: 23px;
+  flex-shrink: 0;
+}
+.image11Icon {
+  width: 450px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 299px);
+  left: 64px;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 4;
+}
+.container6 {
+  width: 100%;
+  border-radius: 24px;
+  background-color: #f0f8f6;
+  border: 1px solid rgba(24, 160, 85, 0.05);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 32px 30px;
+  gap: 23.9px;
+  max-width: 1312px;
+  z-index: 5;
+  font-size: 20px;
+  color: #171a1f;
+  font-family: "Plus Jakarta Sans";
+}
+.containerIcon7 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: 14px;
+  object-fit: cover;
+}
+.containerColumn1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 1.9px;
+  box-sizing: border-box;
+  gap: 4px;
+  min-width: 310px;
+  max-width: 1142px;
+}
+.allPropertiesAre {
+  align-self: stretch;
+  position: relative;
+  font-size: 15px;
+  line-height: 23px;
+  font-family: Inter;
+  color: #565d6d;
+}
+@media screen and (max-width: 1150px) {
+  .containerColumn1,
+  .propertyCardsGrid {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .whatTypeOf {
+    font-size: 23px;
+    line-height: 28px;
+    max-width: 100%;
+  }
+  .propertyCardsGrid {
+    gap: 16px;
+  }
+  .cardFooter {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .housingProperties {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cardFooter2,
+  .cardFooter3 {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .propertyTypeSelectionScreen {
+    gap: 24px;
+  }
+  .leftColumn {
+    max-width: 100%;
+  }
+  .whatTypeOf {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .propertyCardsGrid {
+    max-width: 100%;
+  }
+  .container2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whatTypeOf {
+    font-size: 23px;
+    line-height: 28px;
+    max-width: 100%;
+  }
+  .propertyCardsGrid {
+    gap: 16px;
+  }
+  .cardFooter {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .housingProperties {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cardFooter2,
+  .cardFooter3 {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatTypeOf {
+    font-size: 23px;
+    line-height: 28px;
+    max-width: 100%;
+  }
+  .propertyCardsGrid {
+    gap: 16px;
+  }
+  .cardFooter {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .housingProperties {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cardFooter2,
+  .cardFooter3 {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
+

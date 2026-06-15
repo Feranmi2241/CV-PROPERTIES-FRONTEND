@@ -1,0 +1,208 @@
+.container,
+.lineIcon {
+  position: absolute;
+  left: 0;
+  flex-shrink: 0;
+}
+.container {
+  top: 161px;
+  background-color: var(--color-gray-1200);
+  width: var(--width-942);
+  display: flex;
+  align-items: center;
+  padding: var(--padding-15_9) 188px var(--padding-17) var(--padding-16);
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 31.5px;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
+.lineIcon {
+  width: 100%;
+  margin: 0 !important;
+  right: 0;
+  bottom: -0.1px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.checkbox,
+.requestIdGroup {
+  display: flex;
+  box-sizing: border-box;
+}
+.requestIdGroup {
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-0) var(--padding-16) var(--padding-3_8)
+    var(--padding-0);
+  gap: var(--gap-16);
+  max-width: 78.3px;
+  z-index: 1;
+  flex-shrink: 0;
+  color: var(--color-mediumseagreen-100);
+}
+.checkbox {
+  margin: 0;
+  height: var(--height-17_9);
+  width: var(--width-16);
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1_9);
+}
+.wd9922 {
+  flex: 1;
+  position: relative;
+}
+.userIdentityGroup {
+  flex: 1.2568;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-1) var(--padding-0) var(--padding-0);
+  gap: var(--gap-11_9);
+  z-index: 2;
+  flex-shrink: 0;
+  font-size: var(--fs-13);
+}
+.imageIcon {
+  height: var(--height-32);
+  width: var(--width-32);
+  position: relative;
+  border-radius: var(--br-50);
+}
+.container2,
+.userInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.userInfo {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3);
+  min-width: 66px;
+}
+.container2 {
+  width: 82px;
+  height: var(--height-14);
+  background-color: var(--color-gray-1200);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+  box-sizing: border-box;
+}
+.aminaYusuf,
+.hostSilver {
+  position: relative;
+}
+.hostSilver {
+  align-self: stretch;
+  font-size: var(--fs-10);
+  line-height: var(--lh-20);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.bankDetails,
+.bankNameRow {
+  display: flex;
+  align-items: flex-start;
+}
+.bankDetails {
+  flex: 1.2568;
+  flex-direction: column;
+  max-width: 140px;
+  flex-shrink: 0;
+  font-size: var(--fs-11);
+  color: var(--color-dimgray-100);
+}
+.bankNameRow {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4);
+  gap: var(--gap-5);
+  color: var(--color-gray-400);
+}
+.circleCheckIcon,
+.zenithBank {
+  position: relative;
+}
+.circleCheckIcon {
+  height: var(--height-12);
+  width: var(--width-12);
+}
+.container3,
+.div {
+  align-self: stretch;
+}
+.div {
+  position: relative;
+  font-size: var(--fs-10);
+  line-height: var(--lh-20);
+}
+.container3 {
+  background-color: var(--color-gray-1200);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  font-size: var(--fs-9);
+}
+.aminaYusuf2 {
+  flex: 1;
+  position: relative;
+}
+.textbox,
+.textbox2 {
+  height: var(--height-32);
+  box-sizing: border-box;
+  display: flex;
+}
+.textbox {
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-15) var(--padding-0) var(--padding-0);
+  z-index: 4;
+  flex-shrink: 0;
+  font-size: var(--fs-14);
+}
+.textbox2 {
+  border-radius: var(--br-14);
+  background-color: var(--color-gray-1200);
+  border: var(--border-5);
+  align-items: center;
+  padding: var(--padding-4_5) var(--padding-9) var(--padding-3_5)
+    var(--padding-30);
+}
+.div2 {
+  position: relative;
+  line-height: var(--lh-22);
+}
+.div3 {
+  height: 56px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-20) var(--padding-17) var(--padding-20)
+    var(--padding-0);
+  box-sizing: border-box;
+  z-index: 5;
+  flex-shrink: 0;
+  color: var(--color-dimgray-100);
+}
+.b,
+.div4 {
+  position: relative;
+}
+.div4 {
+  line-height: var(--lh-16);
+  font-weight: 500;
+}
+.b {
+  color: var(--color-gray-900);
+  z-index: 6;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 450px) {
+  .userIdentityGroup {
+    flex-wrap: wrap;
+  }
+}

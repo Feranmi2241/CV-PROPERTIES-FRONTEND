@@ -1,0 +1,229 @@
+.container {
+  height: 1339px;
+  width: 260px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #012315;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 33.5px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}
+.sidebarBrand {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 9px;
+  gap: 6px;
+  font-size: 18px;
+}
+.containerIcon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.brandText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6.9px 0;
+}
+.adminPanel,
+.cvProperties {
+  align-self: stretch;
+  position: relative;
+}
+.cvProperties {
+  margin: 0;
+  font-size: inherit;
+  line-height: 23px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.adminPanel {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.container2,
+.navMenu {
+  align-self: stretch;
+  display: flex;
+}
+.navMenu {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 16px 642px;
+  gap: 14px;
+}
+.container2 {
+  box-shadow:
+    0 4px 7px rgba(23, 26, 31, 0.13),
+    0 0 2px rgba(23, 26, 31, 0.08);
+  border-radius: 10px;
+  background-color: #1b6202;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+}
+.layoutDashboardIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.dashboard {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.navItemUsers {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.users,
+.usersIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.usersIcon {
+  height: 18px;
+  width: 18px;
+}
+.users {
+  flex: 1;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 214.2px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navItemListings,
+.navItemVerification {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+.navItemVerification {
+  padding: 0 0 10px;
+}
+.earningsTransactions {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 174.2px;
+}
+.container3 {
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 7.1px;
+}
+.lineIcon {
+  width: 260px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.containerRow1 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+  gap: 9px;
+  flex-shrink: 0;
+}
+.image {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 1.9px;
+}
+.imageIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+}
+.containerRow1Column1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8.9px 3px 0 0;
+}
+.container4,
+.container5 {
+  align-self: stretch;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 1px;
+}
+.container5 {
+  padding: 0 37px 1px 0;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.superAdministrator {
+  position: relative;
+  line-height: 15px;
+}
+.chevronRight {
+  display: flex;
+  align-items: flex-start;
+  padding: 7.9px 0 0;
+}
+.chevronRightIcon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .navMenu {
+    padding-bottom: 417px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .container {
+    display: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .container {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navMenu {
+    padding-bottom: 271px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    gap: 17px;
+  }
+}

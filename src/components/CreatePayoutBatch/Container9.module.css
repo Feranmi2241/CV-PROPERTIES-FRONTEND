@@ -1,0 +1,14 @@
+.clock,
+.clockIcon {
+  height: var(--height-6);
+}
+.clock {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-1) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.clockIcon {
+  width: var(--width-6);
+  position: relative;
+}

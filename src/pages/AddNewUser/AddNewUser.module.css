@@ -1,0 +1,514 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-height: 100%;
+  padding-top: 24px;
+}
+
+/* ── Page header ── */
+.pageHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pageTitle {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  line-height: 1.2 !important;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.breadcrumbLink {
+  font-size: 12.5px;
+  color: #64748b;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+}
+
+.breadcrumbLink:hover {
+  color: #0c693c;
+  text-decoration: underline;
+}
+
+.breadcrumbSep {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.breadcrumbCurrent {
+  font-size: 12.5px;
+  color: #0c693c;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.cancelBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.cancelBtn:hover {
+  border-color: #94a3b8;
+  color: #1e293b;
+}
+
+.createBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0c693c;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.createBtn:hover {
+  background-color: #09562f;
+}
+
+/* ── Card ── */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e8edf2;
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.divider {
+  height: 1px;
+  background: #f0f0f0;
+  margin: 20px 0;
+}
+
+/* ── Section ── */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #0f172a;
+  font-family: Inter, sans-serif;
+}
+
+.sectionNum {
+  color: #0c693c;
+}
+
+.sectionSubtitle {
+  font-size: 12.5px;
+  color: #64748b;
+  font-family: Inter, sans-serif;
+  margin: -8px 0 0;
+}
+
+/* ── Two column layout ── */
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .twoCol {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Form grids ── */
+.formGrid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.formGrid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 600px) {
+  .formGrid2,
+  .formGrid3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Field ── */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.fieldLabel {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #374151;
+  font-family: Inter, sans-serif;
+}
+
+.required {
+  color: #ef4444;
+  margin-left: 2px;
+}
+
+/* ── Phone input ── */
+.phoneInput {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background: #fafafa;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.phoneInput:focus-within {
+  border-color: #0c693c;
+}
+
+.phonePrefix {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 10px;
+  border-right: 1px solid #e8e8e8;
+  height: 100%;
+  background: #f4f4f4;
+  flex-shrink: 0;
+}
+
+.flagIcon {
+  width: 18px;
+  height: 12px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.dialCode {
+  font-size: 12.5px;
+  color: #374151;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+.phoneField {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0 12px;
+  font-size: 13px;
+  color: #555;
+  font-family: Inter, sans-serif;
+}
+
+.phoneField::placeholder {
+  color: #aaa;
+}
+
+/* ── Upload box ── */
+.uploadBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 1.5px dashed #d1d5db;
+  border-radius: 8px;
+  padding: 18px 12px;
+  background: #fafcfa;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  text-align: center;
+}
+
+.uploadBox:hover {
+  border-color: #0c693c;
+  background: #f0faf5;
+}
+
+.uploadIcon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.uploadText {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #0c693c;
+  font-family: Inter, sans-serif;
+}
+
+.uploadHint {
+  font-size: 11.5px;
+  color: #94a3b8;
+  font-family: Inter, sans-serif;
+}
+
+/* ── Textarea ── */
+.textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background: #fafafa;
+  font-size: 13px;
+  color: #555;
+  font-family: Inter, sans-serif;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.15s;
+  box-sizing: border-box;
+}
+
+.textarea::placeholder {
+  color: #aaa;
+}
+
+.textarea:focus {
+  border-color: #0c693c;
+}
+
+/* ── Temp password note ── */
+.tempPassNote {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: #f0faf5;
+  border: 1px solid #d1fae5;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: #065f46;
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* ── Radio / check labels ── */
+.radioLabel {
+  font-size: 12.5px;
+  color: #374151;
+  font-family: Inter, sans-serif;
+}
+
+.verificationGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.verificationItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.checkRow {
+  margin: 0 !important;
+}
+
+.checkLabel {
+  font-size: 12.5px;
+  color: #374151;
+  font-family: Inter, sans-serif;
+}
+
+/* ── User type cards ── */
+.userTypeRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 700px) {
+  .userTypeRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.typeCard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 14px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.typeCard:hover {
+  border-color: #0c693c;
+  background: #f9fdfb;
+}
+
+.typeCardActive {
+  border-color: #0c693c !important;
+  background: #f0faf5 !important;
+}
+
+.typeIcon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.typeText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.typeLabel {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1e293b;
+  font-family: Inter, sans-serif;
+}
+
+.typeDesc {
+  font-size: 11.5px;
+  color: #64748b;
+  font-family: Inter, sans-serif;
+  line-height: 1.4;
+}
+
+/* ── Permissions section ── */
+.permissionsRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.roleBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.roleBadge {
+  background: #f0faf5;
+  border: 1px solid #a7f3d0;
+  color: #064e3b;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-family: Inter, sans-serif;
+}
+
+.permissionNote {
+  font-size: 12px;
+  color: #64748b;
+  font-family: Inter, sans-serif;
+}
+
+.permissionInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #1d4ed8;
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  max-width: 460px;
+  flex-shrink: 0;
+}
+
+/* ── Extra responsive tweaks ── */
+@media (max-width: 480px) {
+  .page {
+    padding-top: 16px;
+  }
+  .pageTitle {
+    font-size: 18px !important;
+  }
+  .card {
+    padding: 16px;
+    border-radius: 8px;
+  }
+  .headerActions {
+    width: 100%;
+  }
+  .cancelBtn,
+  .createBtn {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+  }
+  .permissionsRow {
+    flex-direction: column;
+  }
+  .permissionInfo {
+    max-width: 100%;
+  }
+  .roleBadgeRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

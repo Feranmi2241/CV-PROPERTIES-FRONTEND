@@ -1,0 +1,381 @@
+.groups,
+.groups2 {
+  background-color: transparent;
+}
+.groups {
+  position: absolute;
+  height: calc(100% - 12px);
+  top: 7px;
+  right: 23.9px;
+  bottom: 5px;
+  width: 219px;
+  text-align: left;
+  font-size: 12.1px;
+  color: #fdfdfd;
+  font-family: Inter;
+}
+.groups2 {
+  right: 8.5px;
+  bottom: 24.1px;
+  width: 100%;
+  height: 76.4px;
+  flex-shrink: 0;
+}
+.frame,
+.groups2,
+.groups3 {
+  position: absolute;
+}
+.frame {
+  width: calc(100% - 10.7px);
+  top: 5.3px;
+  right: 4px;
+  left: 6.7px;
+  border-radius: 5.36px 4.02px 0 0;
+  background-color: #012113;
+  border: 2.7px solid #0f2f22;
+  box-sizing: border-box;
+  height: 67px;
+}
+.groups3 {
+  top: -1.3px;
+  left: -2.6px;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+.imageIcon {
+  position: absolute;
+  right: 14.7px;
+  bottom: 29.5px;
+  width: 9.4px;
+  height: 6.7px;
+}
+.adminUser {
+  position: absolute;
+  right: 78.1px;
+  bottom: 36.75px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 68px;
+}
+.imageIcon2 {
+  position: absolute;
+  right: 154.1px;
+  bottom: 14.8px;
+  width: 38.9px;
+  height: 38.9px;
+}
+.sucntAdmcistiat {
+  position: absolute;
+  right: 59.1px;
+  bottom: 22.6px;
+  font-size: 9.4px;
+  font-weight: 300;
+  color: #3ac709;
+  display: flex;
+  align-items: center;
+  min-width: 87px;
+}
+.briefcaseIcon,
+.groups4 {
+  position: absolute;
+  flex-shrink: 0;
+}
+.groups4 {
+  right: -0.9px;
+  bottom: 227.9px;
+  background-color: transparent;
+  width: 231.9px;
+  height: 560.2px;
+  font-size: 14px;
+  color: #fff;
+}
+.briefcaseIcon {
+  top: 124.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.services {
+  top: 123.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 62px;
+}
+.bookings,
+.calendarCheckIcon,
+.services {
+  position: absolute;
+  flex-shrink: 0;
+}
+.calendarCheckIcon {
+  top: 167.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.bookings {
+  top: 166.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 65px;
+}
+.shieldCheckIcon {
+  top: 209.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.creditCardIcon,
+.shieldCheckIcon,
+.verification {
+  position: absolute;
+  flex-shrink: 0;
+}
+.verification {
+  top: 208.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 82px;
+}
+.creditCardIcon {
+  top: 253.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.earningsTransactions {
+  position: absolute;
+  top: 252.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.chartColumnIcon {
+  top: 297.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.bellIcon,
+.chartColumnIcon,
+.reportsAnalytics {
+  position: absolute;
+  flex-shrink: 0;
+}
+.reportsAnalytics {
+  top: 296.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+}
+.bellIcon {
+  top: 341.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.notifications {
+  top: 340.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 91px;
+}
+.notifications,
+.settings,
+.settingsIcon {
+  position: absolute;
+  flex-shrink: 0;
+}
+.settingsIcon {
+  top: 385.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.settings {
+  top: 384.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 59px;
+}
+.historyIcon {
+  top: 429.1px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+}
+.groups5,
+.historyIcon,
+.systemLogs {
+  position: absolute;
+  flex-shrink: 0;
+}
+.systemLogs {
+  top: 428.1px;
+  left: 54px;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 90px;
+}
+.groups5 {
+  right: 20.1px;
+  bottom: 458px;
+  background-color: transparent;
+  width: 213px;
+  height: 26.8px;
+  white-space: nowrap;
+  color: #fdfdfd;
+}
+.addNewListing {
+  position: absolute;
+  right: 48px;
+  bottom: 5.2px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  min-width: 113px;
+}
+.groups6 {
+  position: absolute;
+  right: 23.1px;
+  bottom: 533.9px;
+  background-color: transparent;
+  width: 201px;
+  height: 40.2px;
+  flex-shrink: 0;
+}
+.button,
+.frame2 {
+  position: absolute;
+  width: 100%;
+}
+.button {
+  right: 0.1px;
+  bottom: 2.7px;
+  background-color: transparent;
+  height: 100%;
+  flex-shrink: 0;
+}
+.frame2 {
+  top: 4px;
+  left: 2.7px;
+  border-radius: 0 4.02px 4.02px 0;
+  background-color: #043b22;
+  height: 36.2px;
+}
+.imageIcon3,
+.listIcon {
+  position: absolute;
+  top: 14.8px;
+  left: 176.8px;
+  width: 9.4px;
+  height: 6.7px;
+}
+.listIcon {
+  top: 8.8px;
+  left: 10.1px;
+  width: 18px;
+  height: 18px;
+}
+.listings {
+  position: absolute;
+  top: 6.8px;
+  left: 38.4px;
+  line-height: 20px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 56px;
+}
+.usersIcon {
+  position: absolute;
+  right: 191.2px;
+  bottom: 812.4px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.users {
+  right: 138.2px;
+  bottom: 811.4px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 800;
+  color: #fff;
+  display: inline-block;
+  min-width: 41px;
+}
+.groups7,
+.imageIcon4,
+.users {
+  position: absolute;
+  flex-shrink: 0;
+}
+.imageIcon4 {
+  right: 192.1px;
+  bottom: 849.7px;
+  width: 16.1px;
+  height: 16.1px;
+}
+.groups7 {
+  width: calc(100% - 7px);
+  right: 4px;
+  bottom: 874px;
+  left: 3px;
+  background-color: transparent;
+  height: 71px;
+  font-size: 12px;
+}
+.adminPanel {
+  position: absolute;
+  right: 65px;
+  bottom: 14px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 73px;
+}
+.rentconnect {
+  margin: 0;
+  position: absolute;
+  right: 19px;
+  bottom: 34.5px;
+  display: flex;
+  align-items: center;
+  width: 120px;
+  min-width: 120px;
+}
+.containerIcon {
+  position: absolute;
+  right: 151px;
+  bottom: 1px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.dashboard {
+  position: absolute;
+  right: 113px;
+  bottom: 850.5px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  min-width: 66px;
+  flex-shrink: 0;
+}

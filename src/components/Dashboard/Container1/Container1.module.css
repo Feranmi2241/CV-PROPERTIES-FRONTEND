@@ -1,0 +1,198 @@
+.container,
+.containerRow0 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.container {
+  background-color: #fff;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+  font-size: 14px;
+  color: #9ca3af;
+  font-family: Inter;
+}
+.containerRow0 {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 13px 30px;
+  box-sizing: border-box;
+  gap: 13.1px;
+}
+.textbox,
+.textbox2 {
+  flex: 1;
+  display: flex;
+  box-sizing: border-box;
+}
+.textbox {
+  align-items: flex-start;
+  padding: 0 304px 0 0;
+  min-width: 310px;
+  max-width: 689px;
+}
+.textbox2 {
+  border-radius: 6px;
+  background-color: #f8fafc;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 7px 12px;
+  gap: 8px;
+  max-width: 100%;
+}
+.searchIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.searchByUsers {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 240px;
+  max-width: 100%;
+}
+.container2,
+.container3 {
+  box-sizing: border-box;
+  display: flex;
+}
+.container2 {
+  flex: 1.6854;
+  align-items: flex-start;
+  padding: 0 12px 0 0;
+  min-width: 175px;
+  max-width: 203px;
+  color: #475569;
+}
+.container3 {
+  height: 34px;
+  flex: 1;
+  border-radius: 6px;
+  background-color: #f8fafc;
+  border: 1px solid #dee1e6;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 5.1px;
+  gap: 8px;
+}
+.calendarIcon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+.may1May312024 {
+  height: 21.9px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 1.9px;
+  box-sizing: border-box;
+}
+.may1 {
+  position: relative;
+  line-height: 20px;
+}
+.mergedAsset2 {
+  height: 23.9px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 11px 1.9px 0;
+  box-sizing: border-box;
+}
+.mergedAsset2Icon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.badgeBackground,
+.bellIcon {
+  position: absolute;
+  top: 1.95px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+.badgeBackground {
+  top: -0.05px;
+  left: 14px;
+  border-radius: 4px;
+  background-color: #ef4444;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  width: 8px;
+  height: 8px;
+}
+.lineIcon {
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.containerRow0Column4 {
+  flex: 1.7918;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 77px;
+  max-width: 89px;
+  text-align: right;
+  color: #0f172a;
+}
+.adminUser,
+.superAdmin {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.superAdmin {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #64748b;
+}
+.containerIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: 18px;
+}
+.image {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background-color: #d9d9d9;
+  width: 34px;
+  height: 34px;
+}
+.lineIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 750px) {
+  .textbox {
+    padding-right: 152px;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .textbox {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .container2 {
+    flex: 1;
+  }
+}

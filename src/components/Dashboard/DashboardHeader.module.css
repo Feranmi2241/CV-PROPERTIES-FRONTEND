@@ -1,0 +1,95 @@
+.dashboardHeader {
+  width: 1156px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 8px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #0f172a;
+  font-family: Inter;
+}
+.headerTitleGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-width: 310px;
+  max-width: 100%;
+}
+.welcomeBackAdmin {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.heresWhatsHappening {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+}
+.headerActions {
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #171a1f;
+}
+.container {
+  height: 40px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #dee1e6;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 17px 9px 16px;
+  gap: 7px;
+}
+.imageIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.filter {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button {
+  height: 40px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #dee1e6;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px 8px 15px;
+  gap: 8px;
+}
+.export {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+@media screen and (max-width: 450px) {
+  .welcomeBackAdmin {
+    font-size: 19px;
+    line-height: 26px;
+  }
+}

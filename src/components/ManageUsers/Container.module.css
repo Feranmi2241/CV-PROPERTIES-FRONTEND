@@ -1,0 +1,66 @@
+.buttonIcon,
+.container {
+  background-color: transparent;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 40px 32px 0;
+  box-sizing: border-box;
+  gap: 4px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #171a1f;
+  font-family: "Plus Jakarta Sans";
+}
+.buttonIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  box-shadow:
+    0 0 0 transparent,
+    0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  object-fit: cover;
+}
+.buttonIcon:hover {
+  background-color: #e6e6e6;
+  border: 1px solid rgba(196, 199, 204, 0.5);
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: calc(50% + 11px);
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Inter;
+  color: #171a1f;
+  text-align: left;
+}
+.chevronLeftIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 13px);
+  width: 24px;
+  height: 24px;
+}
+.listAProperty {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 166px;
+  max-width: 100%;
+}

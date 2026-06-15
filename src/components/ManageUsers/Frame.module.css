@@ -1,0 +1,19 @@
+.frame {
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 3px 4px 5px;
+  box-sizing: border-box;
+  background-image: url(/public/Frame14@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 9px;
+  color: #0ca554;
+  font-family: Inter;
+}
+.omeFame {
+  position: relative;
+}

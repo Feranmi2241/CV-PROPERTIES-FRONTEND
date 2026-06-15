@@ -1,0 +1,225 @@
+.container {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 11px 26px 12px;
+  box-sizing: border-box;
+  position: sticky;
+  isolation: isolate;
+  gap: 15.6px;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #1e293b;
+  font-family: Inter;
+}
+.lineIcon {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.brandAndSearch {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 4px;
+  min-width: 310px;
+  max-width: 561px;
+  flex-shrink: 0;
+}
+.buttonIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  box-shadow:
+    0 0 0 transparent,
+    0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  object-fit: cover;
+}
+.buttonIcon:hover {
+  background-color: #e6e6e6;
+  border: 1px solid rgba(196, 199, 204, 0.5);
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: calc(50% + 11px);
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Inter;
+  color: #171a1f;
+  text-align: left;
+  white-space: nowrap;
+}
+.chevronLeftIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 13px);
+  width: 24px;
+  height: 24px;
+}
+.brandAndSearchColumn1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 0;
+  min-width: 310px;
+  max-width: 100%;
+}
+.notifyhub {
+  flex: 1.0675;
+  display: flex;
+  align-items: flex-start;
+  padding: 1.9px 0 0;
+  box-sizing: border-box;
+  min-width: 125px;
+  max-width: 127px;
+}
+.notifyhub2 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+}
+.textbox {
+  border: 0;
+  background-color: transparent;
+  height: 40px;
+  flex: 1;
+  font-family: Inter;
+  font-size: 14px;
+  color: #565d6d;
+  min-width: 286px;
+  max-width: 100%;
+}
+.actionButtons {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 11.9px;
+  min-width: 310px;
+  max-width: 100%;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.button,
+.button3 {
+  height: 40px;
+  padding: 8px 15px;
+  box-sizing: border-box;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 9px 15px 9px 16px;
+  background-color: #2f9e5b;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.button3:hover {
+  background-color: #47b875;
+}
+.plusIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.createNotification {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+}
+.userInfo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10.9px;
+  min-width: 138px;
+  max-width: 171px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 14px;
+  color: #0f172a;
+}
+.lineIcon2 {
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.userTextInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 97.2px;
+}
+.adminUser,
+.superAdmin {
+  align-self: stretch;
+  position: relative;
+}
+.adminUser {
+  line-height: 20px;
+  font-weight: 500;
+}
+.superAdmin {
+  font-size: 12px;
+  line-height: 16px;
+  color: #64748b;
+}
+.container2 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+@media screen and (max-width: 1350px) {
+  .brandAndSearch {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .brandAndSearch {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .brandAndSearch {
+    max-width: 100%;
+  }
+}

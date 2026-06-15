@@ -1,0 +1,188 @@
+.groups,
+.mergedAsset1Icon {
+  position: absolute;
+  flex-shrink: 0;
+}
+.groups {
+  right: -15px;
+  bottom: 858.2px;
+  background-color: transparent;
+  width: 1248px;
+  height: 53.1px;
+}
+.mergedAsset1Icon {
+  top: 8.3px;
+  left: 1040px;
+  width: 27px;
+  height: 29px;
+}
+.imageIcon {
+  position: absolute;
+  top: 8.1px;
+  left: -0.5px;
+  width: 20.4px;
+  height: 20.4px;
+  object-fit: cover;
+}
+.button {
+  position: absolute;
+  top: -0.1px;
+  left: 10.4px;
+  background-color: transparent;
+  width: 16.3px;
+  height: 15px;
+}
+.backgroundIcon,
+.imageIcon2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 16.3px;
+  height: 13.6px;
+  object-fit: cover;
+}
+.imageIcon2 {
+  right: 2.7px;
+  bottom: 1.4px;
+  width: 8.2px;
+  height: 10.9px;
+}
+.frame {
+  position: absolute;
+  top: -0.2px;
+  left: 0;
+  background-color: #fdfdfd;
+  width: 1258.1px;
+  height: 54.9px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 12px;
+  color: #cbcacd;
+  font-family: Inter;
+}
+.imageIcon3 {
+  position: absolute;
+  top: 26.1px;
+  left: 1209.9px;
+  width: 8.2px;
+  height: 4.1px;
+}
+.frame2,
+.imageIcon4 {
+  position: absolute;
+  top: 11.1px;
+  left: 1088.6px;
+  width: 35.4px;
+  height: 35.4px;
+}
+.frame2 {
+  top: 8.4px;
+  left: 989.1px;
+  width: 25.9px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.buttonIcon {
+  position: absolute;
+  top: 1.4px;
+  left: 9.6px;
+  width: 15px;
+  height: 16.3px;
+}
+.backgroundIcon2,
+.imageIcon5 {
+  position: absolute;
+  right: 0;
+  bottom: -0.1px;
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+}
+.imageIcon5 {
+  right: 2.7px;
+  bottom: 2.6px;
+  width: 8.2px;
+  height: 12.3px;
+}
+.frame3,
+.text {
+  position: absolute;
+  top: 5.7px;
+  left: 72.2px;
+  background-color: transparent;
+  width: 408.7px;
+  height: 39.5px;
+}
+.frame3 {
+  top: 0;
+  left: 0;
+  background-color: #fcfcfc;
+  width: 100%;
+  height: 100%;
+}
+.imageIcon6,
+.imageIcon7 {
+  position: absolute;
+  top: 17.7px;
+  left: 385.6px;
+  width: 5.4px;
+  height: 8.2px;
+}
+.imageIcon7 {
+  top: 13.6px;
+  left: 16.4px;
+  width: 13.6px;
+  height: 13.6px;
+}
+.c01,
+.searchByUser {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.c01 {
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  background-color: transparent;
+  top: 13.6px;
+  left: 358.25px;
+  color: #c3c2c7;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+}
+.searchByUser {
+  top: 10.8px;
+  left: 40.8px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.imageIcon8 {
+  position: absolute;
+  top: 20.7px;
+  left: 31.3px;
+  width: 16.3px;
+  height: 12.3px;
+}
+.adminUser,
+.superAdmin {
+  position: absolute;
+  top: 28.9px;
+  left: 1132.2px;
+  font-size: 9.5px;
+  font-weight: 300;
+  color: #c2c2c7;
+  display: flex;
+  align-items: center;
+  min-width: 58px;
+  white-space: nowrap;
+}
+.adminUser {
+  top: 11.1px;
+  font-size: 12.3px;
+  color: #959696;
+  min-width: 67px;
+}
