@@ -1,30 +1,51 @@
 # Dependencies
 node_modules/
-/.pnp
+.pnp
 .pnp.js
 
-# Build output
-/build
-/dist
+# Production / Build outputs
+build/
+dist/
 
-# Environment variables
+# Local logs and outputs
+build_log
+build_output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (Sensitive)
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Local Design Reference Folders
+screenshots/
+Screenshots/
+"screenshots 2/"
 
-# Editor
+# API specification reference
+swagger
+
+# Editor / System settings
+.DS_Store
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# =========================================================================
+# Pages Deployment Restrictions
+# =========================================================================
+
+# Step 1: Ignore everything inside the pages directory
+src/pages/*
+
+# Step 2: Allow the main folder structure to be scanned
+!src/pages/
+
+# Step 3: Explicitly allow ONLY these three specific page folders to be tracked
+!src/pages/AddNewUser/
+!src/pages/AdminDashboard/
+!src/pages/AdminLogin/
